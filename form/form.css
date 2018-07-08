@@ -1,0 +1,23 @@
+#container{
+  margin:250px auto;
+  width: 400px;
+  border-style: solid;
+}
+
+form{
+  padding-top: 15px; 
+  padding-left: 10px; 
+  padding-right: 30px; 
+  padding-bottom: 40px; 
+}
+
+h3{
+  text-align: center;
+}
+
+#submit{
+  position:relative; 
+  left:175px;
+  cursor: pointer;
+}
+

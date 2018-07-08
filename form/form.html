@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Example</title>
+  <link rel="stylesheet" type="text/css" href="form.css"/>
+  <script src="https://cdn.bootcss.com/jquery/3.0.0/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="form.js"></script>
+</head>
+<body>
+  <div id="container">
+    <h3>這是一個簡單的表單</h3>
+    <hr>
+    <form mehtod="post" action="" id="form">
+      <div class="form-group row">
+        <label for="name">文字：&nbsp;</label>
+          <input type="text" id="name" value="" placeholder="請輸入文字" /> 
+          <span class="sign" style="color:red">*</span>
+      </div>
+      <div class="form-group row">
+        <label for="readonly_input">唯讀：&nbsp;</label>
+          <input type="text" id="readonly_input" value="" placeholder="這一欄不能修改" readonly/> 
+      </div>
+      <div class="form-group row">
+        <label for="change_color">換色：&nbsp;</label>
+          <input type="color" id="chang_color" /> 
+      </div>
+      <div class="form-group row">
+        <label for="radio">選項：&nbsp;</label>
+        <input type="radio" value="1" checked>A選項
+        <input type="radio" value="2">B選項
+        <input type="radio" value="3">C選項
+      </div>
+      <div class="form-group row">
+        <label for="file">檔案：&nbsp;</label>
+        <input type="file" id="file">
+      </div>
+      <div class="form-group row">
+        <label for="paragraph">其他：&nbsp;</label>
+        <div>
+          <textarea id="paragraph" rows="4" cols="40"></textarea>
+          <br>
+          <small>請輸入至少10個字<small>
+        </div>
+      </div>
+      <br>
+      <div class="form-group row">
+        <input type="submit" id="submit" value="提交"> 
+      </div>
+    </form>
+  </div>
+</body>
+</html>
