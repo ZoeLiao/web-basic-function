@@ -13,9 +13,19 @@ const Layout = (props) => (
             <Header />
         <div style={layoutStyle}>
             {props.children}
+
         </div>
+
+
         <div>
-            <Footer />
+        <style jsx global>
+            {`
+                a:hover{
+                    text-decoration:underline;
+                }
+            `}
+        </style>
+		<Footer />
         </div>
         </div>
 )
