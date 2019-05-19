@@ -18,3 +18,11 @@ react_app
 ===
 - 1.練習基本的 React
 - 2.React: [簡介](https://reactjs.org/])
+
+next_js
+===
+- 1.練習用 React 官方推薦的 next.js 框架構建 React 寫網站
+
+typescript_pratice
+===
+- 1.練習基本的 TypeScript
