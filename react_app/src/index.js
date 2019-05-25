@@ -4,11 +4,13 @@ import List from './List';
 import Counter from './Counter';
 import Input from './Input';
 import Parent from './Parent';
+import Visible from './Visible';
 
 import { render } from 'react-dom';
 import Message from './Message';
 
-ReactDom.render( < Parent / > , document.getElementById('root'));
+ReactDom.render( < Visible / > , document.getElementById('root'));
+//ReactDom.render( < Parent / > , document.getElementById('root'));
 //ReactDom.render( < Input / > , document.getElementById('root'));
 //ReactDom.render( < Counter / > , document.getElementById('root'));
 //render( < Message / > , document.getElementById('root'));

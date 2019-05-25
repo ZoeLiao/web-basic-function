@@ -1,0 +1,7 @@
+.visibleH1 {
+    display: visible;
+}
+
+.invisibleH1 {
+    display: none;
+}
