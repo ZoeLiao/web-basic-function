@@ -5,11 +5,13 @@ import Counter from './Counter';
 import Input from './Input';
 import Parent from './Parent';
 import Visible from './Visible';
+import ProgressBar from './ProgressBar'
 
 import { render } from 'react-dom';
 import Message from './Message';
 
-ReactDom.render( < Visible / > , document.getElementById('root'));
+ReactDom.render( < ProgressBar / > , document.getElementById('root'));
+//ReactDom.render( < Visible / > , document.getElementById('root'));
 //ReactDom.render( < Parent / > , document.getElementById('root'));
 //ReactDom.render( < Input / > , document.getElementById('root'));
 //ReactDom.render( < Counter / > , document.getElementById('root'));

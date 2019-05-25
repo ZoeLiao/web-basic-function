@@ -5,3 +5,12 @@
 .invisibleH1 {
     display: none;
 }
+
+.bar-outer {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.bar-inner {
+    background-color: #4CAF50;
+}
